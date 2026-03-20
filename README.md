@@ -30,7 +30,8 @@ Most "analytics copilots" are thin layers over NL-to-SQL: a chat UI sends prompt
 │   ├── 08-lida.md                         # Proactive insight/visualization pipeline
 │   └── 09-tabular-models.md               # TABULA-8B + TabPFN foundation models
 └── analysis/
-    └── comparative-analysis.md            # Cross-paper synthesis + recommended path
+    ├── comparative-analysis.md            # Cross-paper synthesis + recommended path
+    └── commercial-landscape.md            # Commercial product landscape (25+ products)
 ```
 
 ## Papers Covered
@@ -49,13 +50,32 @@ Most "analytics copilots" are thin layers over NL-to-SQL: a chat UI sends prompt
 
 ## Commercial/Product Landscape
 
-- **Snowflake Cortex Analyst**: Semantic Views + Routing Mode + Verified Query Optimization
-- **dbt MetricFlow**: Open-source semantic layer compiler (83% accuracy with semantic layer vs 40% without)
-- **Cube**: Universal semantic layer with AI API + AI Data Analyst/Engineer agents
-- **ThoughtSpot Spotter**: Semantic-layer-grounded search tokens
-- **Sigma Computing (Ask Sigma)**: Step-by-step intermediate representations
-- **Tellius Kaiya**: Deterministic analytics + LLM orchestration
+See [analysis/commercial-landscape.md](analysis/commercial-landscape.md) for the full breakdown of 25+ products across 5 tiers.
+
+### Platform Giants
+- **Snowflake Cortex Analyst**: Semantic Views + Routing Mode + Verified Query Optimization (self-improving)
+- **Databricks Genie**: Agent Mode with multi-step "why" reasoning + Unity Catalog grounding (300% MAU growth)
+- **dbt MetricFlow**: Open-source semantic layer compiler (83% accuracy vs 40% without)
+- **Microsoft Copilot**: Power BI semantic models + multi-agent coordination (March 2026)
+
+### Semantic Layer Specialists
+- **Cube AI**: Universal semantic layer + AI Data Analyst/Engineer agents + authoring copilot
+- **ThoughtSpot Spotter**: Semantic-layer-grounded search tokens + domain-specific agents
+- **Tellius Kaiya**: Deterministic analytics (variance/anomaly/forecasting) + LLM orchestration
+
+### BI Tool AI Features
+- **Lightdash**: dbt-native AI Analyst with metric PRs + coaching toward governed content
+- **Hex**: Notebook Agent + Semantic Model Agent + graph-aware debugging
+- **Sigma**: "Show your work" step-by-step intermediate representations
+
+### Standalone AI Analysts
+- **Zenlytic Zoë**: Autonomous AI analyst for commerce ($9M Series A)
+- **Julius AI**: No-code NL analytics, 8-32GB files
+- **DataLine**: Open source, privacy-first, runs on-device
+
+### Standards
 - **Open Semantic Interchange (OSI)**: Vendor-neutral YAML spec for portable semantic models
+- **Model Context Protocol (MCP)**: Anthropic's standard for LLM↔tool connections
 
 ## Recommended Architecture
 
