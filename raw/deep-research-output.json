@@ -1,0 +1,9 @@
+{
+  "source": "ChatGPT Deep Research via supersub",
+  "request_id": "drq_68420146e0b31284",
+  "conversation_id": "69bd016b-0cac-83a5-8458-2630ffffcff7",
+  "submitted_at": "2026-03-20T08:12:23.128418Z",
+  "completed_at": "2026-03-20T08:13:00.199054Z",
+  "note": "supersub persist bug captured submission echo instead of result. Full result fetched via `consult fetch --conv-id`.",
+  "prompt": "What are the state-of-the-art and genuinely novel approaches for building an analytics co-pilot? I am NOT interested in approaches that simply replace the human analyst with an LLM while keeping the rest of the pipeline the same (e.g. basic text-to-SQL, NL-to-query chatbots). I want architecturally novel ideas — things like: (1) Semantic layers that give LLMs structured access to governed metrics/dimensions instead of raw schemas, (2) Multi-agent pipelines where specialized agents handle different phases of the analytics workflow (data quality, hypothesis generation, statistical validation, narrative), (3) Systems that fundamentally change the interaction model beyond chat-to-SQL — proactive insight generation, anomaly-driven analysis, analyst behavior learning, (4) Table-native foundation models trained specifically on tabular data reasoning (e.g. TableGPT), (5) Self-improving analytics agents that learn from their own analysis trajectories. Include recent papers (2024-2026), open source projects (e.g. LIDA, Cube, DA-Code), and commercial approaches. Focus on what is genuinely new vs what is just a wrapper around LLM SQL generation."
+}
